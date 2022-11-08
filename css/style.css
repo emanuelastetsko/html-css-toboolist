@@ -20,7 +20,24 @@ header{
 }
 
 #main-title {
+    display: inline-block;
     font-weight: 900;
     font-size: 2em;
     vertical-align: middle;
 }
+
+/* MAIN */
+
+main{
+    background-color: #f6f8f9;
+    height: 700px;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 2%;
+}
+

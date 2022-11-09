@@ -72,3 +72,9 @@ h3::before{
     content: "\25BC";
     font-size: 10px;
 }
+
+.checking-list{
+    font-weight: 300;
+    display: block;
+    padding: 10px;
+}

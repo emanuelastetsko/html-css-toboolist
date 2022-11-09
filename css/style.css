@@ -38,24 +38,40 @@ main{
 }
 
 .container{
-    width: 600px;
+    width: 40%;
     margin: 0 auto;
-    height: 600px;
     background-color: #ffffff;
     border-radius: 2%;
 }
+
 .container2{
     width: 550px;
     margin: auto;
 }
 
-.second-box{
-    margin-top: 40px;
+.my-button{
+    padding: 6px 12px;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-style: solid;
+    color: lightgray;
+    background-color: white;
+}
+
+.special-button{
+    background-color: #47adf1;
+    color: white;
+    border-color: #47adf1;
 }
 
 #add-menu-container{
-    height: 50px;
+    padding: 15px 10px;
 }
+
+.second-box{
+    padding: 30px 10px;
+}
+
 
 hr{
     background-color:#f6f8f9;
@@ -65,7 +81,8 @@ hr{
 
 h3{
     font-weight: 900;
-    color: #3b3a3a
+    color: #3b3a3a;
+    padding: 5px 0;
 }
 
 h3::before{
@@ -76,7 +93,7 @@ h3::before{
 .checking-list{
     font-weight: 300;
     display: block;
-    padding: 10px;
+    padding: 4px;
 }
 
 /* CHECKBOX */
@@ -84,11 +101,23 @@ h3::before{
 .done::before{
     content: "\2713";
     color: #6fc5b0;
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #6fc5b0;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .to-do::before{
     content: "\2717";
     color: #eb5952;
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #eb5952;
+    border-radius: 50%;
+    text-align: center;
 }
 
 /* TAG */
@@ -103,12 +132,12 @@ h3::before{
 }
 
 .Q1-goals::after{
-        content: "Q1 Goals";
-        color: white;
-        background-color: #9c72e4;
-        font-size: 0.7em;
-        border-radius: 48%;
-        padding: 5px 9px;
+    content: "Q1 Goals";
+    color: white;
+    background-color: #9c72e4;
+    font-size: 0.7em;
+    border-radius: 48%;
+    padding: 5px 9px;
 }
 
 .recruiting::after{

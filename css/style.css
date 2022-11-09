@@ -93,7 +93,7 @@ h3::before{
 .checking-list{
     font-weight: 300;
     display: block;
-    padding: 4px;
+    padding: 4px 0px;
 }
 
 /* CHECKBOX */
@@ -125,10 +125,11 @@ h3::before{
 .editorial::after{
     content: "Editorial";
     color: white;
+    display: inline-block;
     background-color: #45abe9;
     font-size: 0.7em;
-    border-radius: 48%;
-    padding: 5px 9px;
+    border-radius: 5px;
+    padding: 5px 7px;
 }
 
 .Q1-goals::after{
@@ -136,8 +137,8 @@ h3::before{
     color: white;
     background-color: #9c72e4;
     font-size: 0.7em;
-    border-radius: 48%;
-    padding: 5px 9px;
+    border-radius: 5px;
+    padding: 5px 7px;
 }
 
 .recruiting::after{
@@ -145,8 +146,8 @@ h3::before{
     color: white;
     background-color: #64c0a8;
     font-size: 0.7em;
-    border-radius: 48%;
-    padding: 5px 9px;
+    border-radius: 5px;
+    padding: 5px 7px;
 }
 
 .mobile::after{
@@ -154,8 +155,8 @@ h3::before{
     color: white;
     background-color: #f29d33;
     font-size: 0.7em;
-    border-radius: 48%;
-    padding: 5px 9px;
+    border-radius: 5px;
+    padding: 5px 7px;
 }
 
 .website::after{
@@ -163,8 +164,8 @@ h3::before{
     color: white;
     background-color: #d863a0;
     font-size: 0.7em;
-    border-radius: 48%;
-    padding: 5px 9px;
+    border-radius: 5px;
+    padding: 5px 7px;
 }
 
 .sales::after{
@@ -172,6 +173,6 @@ h3::before{
     color: white;
     background-color: #b0c926;
     font-size: 0.7em;
-    border-radius: 48%;
-    padding: 5px 9px;
+    border-radius: 5px;
+    padding: 5px 7px;
 }

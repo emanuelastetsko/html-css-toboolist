@@ -38,14 +38,14 @@ main{
 }
 
 .container{
-    width: 850px;
+    width: 600px;
     margin: 0 auto;
-    height: 850px;
+    height: 600px;
     background-color: #ffffff;
     border-radius: 2%;
 }
 .container2{
-    width: 700px;
+    width: 550px;
     margin: auto;
 }
 
@@ -77,4 +77,16 @@ h3::before{
     font-weight: 300;
     display: block;
     padding: 10px;
+}
+
+/* CHECKBOX */
+
+.done::before{
+    content: "\2713";
+    color: #6fc5b0;
+}
+
+.to-do::before{
+    content: "\2717";
+    color: #eb5952;
 }

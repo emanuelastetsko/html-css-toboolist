@@ -90,3 +90,59 @@ h3::before{
     content: "\2717";
     color: #eb5952;
 }
+
+/* TAG */
+
+.editorial::after{
+    content: "Editorial";
+    color: white;
+    background-color: #45abe9;
+    font-size: 0.7em;
+    border-radius: 48%;
+    padding: 5px 9px;
+}
+
+.Q1-goals::after{
+        content: "Q1 Goals";
+        color: white;
+        background-color: #9c72e4;
+        font-size: 0.7em;
+        border-radius: 48%;
+        padding: 5px 9px;
+}
+
+.recruiting::after{
+    content: "Recruiting";
+    color: white;
+    background-color: #64c0a8;
+    font-size: 0.7em;
+    border-radius: 48%;
+    padding: 5px 9px;
+}
+
+.mobile::after{
+    content: "Mobile";
+    color: white;
+    background-color: #f29d33;
+    font-size: 0.7em;
+    border-radius: 48%;
+    padding: 5px 9px;
+}
+
+.website::after{
+    content: "Website";
+    color: white;
+    background-color: #d863a0;
+    font-size: 0.7em;
+    border-radius: 48%;
+    padding: 5px 9px;
+}
+
+.sales::after{
+    content: "Sales";
+    color: white;
+    background-color: #b0c926;
+    font-size: 0.7em;
+    border-radius: 48%;
+    padding: 5px 9px;
+}
